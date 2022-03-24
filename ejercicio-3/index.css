@@ -1,0 +1,18 @@
+h1 {
+  font-family: sans-serif;
+}
+
+header a {
+  color: black;
+  font: 1.4em sans-serif;
+  text-decoration: none;
+}
+
+/*Investigar la seudoclase hover*/
+div#navbar ul.navbar-nav > li > a:hover {
+  color: green;
+}
+
+header.header-home .navbar-nav > li > a:hover {
+  color: red;
+}

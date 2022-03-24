@@ -1,0 +1,31 @@
+.container > div {
+  border-color: blue;
+  background-color: yellow;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 10px;
+}
+
+.container > div:nth-child(2n) {
+  background-color: green;
+}
+
+.container > div:nth-child(2n + 1) {
+  background-color: blue;
+}
+
+.container > div:nth-child(4) {
+  background-color: orange;
+}
+
+.container > div:nth-child(8) {
+  background-color: pink;
+}
+
+.container > div:nth-child(7) > div > p {
+  color: red;
+}
+
+.container > div:nth-child(10) > div > p > b {
+  color: purple;
+}

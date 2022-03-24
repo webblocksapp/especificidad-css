@@ -1,0 +1,15 @@
+/*
+  Se altera cualquier span que esté
+  dentro de la clase content
+*/
+.content span {
+  color: green;
+}
+
+/*
+  Se altera un span justo después 
+  de una etiqueta html con clase content
+*/
+.content > span {
+  color: red;
+}

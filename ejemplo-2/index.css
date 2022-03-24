@@ -1,0 +1,11 @@
+.list > li > span {
+  color: green;
+}
+
+.list > li > ul > li > span {
+  color: red;
+}
+
+.list > li > ul > li > ul > li > span {
+  color: blue;
+}

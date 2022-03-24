@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.container > div {
+  border: 3px solid black;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: yellow;
+}
+
+.container > div > div {
+  border: 5px solid green;
+  padding: 5px;
+  background-color: pink;
+}
+
+.container > div:nth-child(2n) > div {
+  background-color: purple;
+}
+.container > div:nth-child(2n) {
+  background-color: blue;
+}
+.container > div:nth-child(2n + 1) > div {
+  background-color: grey;
+}
+.container > div:nth-child(2n + 1) {
+  background-color: brown;
+}
+.container > div:nth-child(5) > div {
+  font-size: 20px;
+}
+.container > div:nth-child(3) > div {
+  padding: 5px;
+}
+.container > div:nth-child(3) {
+  padding: 2px;
+}
+.container > div:nth-child(1) > div {
+  font-size: 10px;
+}
+.container > div:nth-child(2) > div {
+  font-size: 30px;
+}
