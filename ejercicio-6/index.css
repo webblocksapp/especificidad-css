@@ -1,9 +1,9 @@
-#container > li.amarillo {
+.container > li.amarillo {
   background-color: yellow;
 }
-#container > li.azul {
+.container > li.azul {
   background-color: blue;
 }
-#container > li.rojo {
+.container > li.rojo {
   background-color: red;
 }

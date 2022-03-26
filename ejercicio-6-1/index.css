@@ -1,0 +1,11 @@
+.container > li:nth-child(3n + 1) {
+  background-color: yellow;
+}
+
+.container > li:nth-child(3n + 2) {
+  background-color: blue;
+}
+
+.container > li:nth-child(3n + 3) {
+  background-color: red;
+}
